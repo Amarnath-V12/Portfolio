@@ -1,0 +1,17 @@
+body{
+    background-color: #070707;
+    font-family: Arial, sans-serif;
+    color: hsl(254, 76%, 40%);
+}
+
+h1{
+    color: #27d5af;
+}
+
+p{
+    font-size: 15px;
+    color: hsl(140, 95%, 49%);
+}
+img{
+    size:0ch;
+}
