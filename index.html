@@ -1,80 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amarnath V | Portfolio</title>
+    <title>Amarnath V | Robotics Engineer</title>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
+    <!-- Navigation Bar -->
+
     <header>
-        <img src="happy.jpeg" alt="Amarnath">
-        <h1>Amarnath V</h1>
-        <h3>Robotics Engineer | ROS2 | C++ | Python</h3>
+        <nav class="navbar">
+            <h2 class="logo">Amarnath V</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
     </header>
 
-    <section>
+    <!-- Hero Section -->
+
+    <section id="home" class="hero">
+
+        <img src="happy.jpg" alt="Amarnath" class="profile-pic">
+
+        <h1>Amarnath V</h1>
+
+        <h3>Robotics Engineer</h3>
+
+        <p>
+            ROS2 • C++ • Python • Embedded Systems • AI
+        </p>
+
+        <div class="buttons">
+
+            <a href="Resume.pdf" class="btn">Download Resume</a>
+
+            <a href="https://github.com/Amarnath-V12" target="_blank" class="btn">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/amarnath-v12" target="_blank" class="btn">
+                LinkedIn
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
         <h2>About Me</h2>
 
         <p>
-            Hello! I am Amarnath, a Robotics Engineer with experience in
-            autonomous robots, ROS2, C++, Python and embedded systems.
-            I am currently learning Web Development and improving my
-            Japanese language skills.
+            Hello! I am <strong>Amarnath V</strong>, a Robotics Engineer with
+            more than four years of experience in Robotics Research,
+            Industrial Automation, Autonomous Ground Vehicles,
+            Humanoid Robots and Embedded Systems.
+
+            I have worked on defence projects including Air Force,
+            Navy and DRDO robotic systems.
+
+            Currently I am studying Japanese in Japan while
+            expanding my software and robotics skills.
         </p>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-
-        <ul>
-            <li>C++</li>
-            <li>Python</li>
-            <li>ROS2</li>
-            <li>Embedded Systems</li>
-            <li>HTML & CSS</li>
-            <li>Git & GitHub</li>
-        </ul>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="card">
-            <h3>Biped Robot</h3>
-            <p>Worked on humanoid robot software for DRDO.</p>
-        </div>
-
-        <div class="card">
-            <h3>Autonomous Tow Tug</h3>
-            <p>Developed software for autonomous airport towing vehicles.</p>
-        </div>
-
-        <div class="card">
-            <h3>RoboPack</h3>
-            <p>Industrial robotic packaging system for Gabon.</p>
-        </div>
 
     </section>
 
-    <section>
+    <!-- Experience -->
+
+    <section id="experience">
+
+        <h2>Work Experience</h2>
+
+        <div class="card">
+
+            <h3>Premier Astra</h3>
+
+            <h4>Robotics Engineer</h4>
+
+            <p>
+                Developed autonomous robotic systems using ROS2,
+                EtherCAT, OpenCAN, SLAM, AMCL and Linux.
+                Worked on humanoid robots and autonomous
+                military tow vehicles.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Gridbots Technologies Pvt. Ltd.</h3>
+
+            <h4>Junior Robotics Engineer</h4>
+
+            <p>
+                Developed robotic manipulators,
+                autonomous robots and embedded systems
+                using C, Python and industrial protocols.
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Ore Equipe Robotics Research Centre</h3>
+
+            <h4>Robotics Engineer</h4>
+
+            <p>
+                Developed Raspberry Pi,
+                Arduino and NodeMCU based robotic systems
+                while training engineering students.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <h2>Featured Projects</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <h3>🤖 Biped Robot (DRDO)</h3>
+
+                <p>
+                    Motion control software for
+                    a humanoid robot with 14 actuators.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚁 iTow 20T</h3>
+
+                <p>
+                    Semi-autonomous towbarless tug
+                    developed for the Indian Navy.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>✈️ iNav</h3>
+
+                <p>
+                    Air Force towbar tug control
+                    software and safety integration.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>📦 RoboPack</h3>
+
+                <p>
+                    Industrial robotic manipulator
+                    for automated bottle packaging.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🚗 Autojack 2000</h3>
+
+                <p>
+                    Autonomous Mobile Robot (AMR)
+                    for industrial pallet transport.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section id="skills">
+
+        <h2>Technical Skills</h2>
+
+        <div class="skill-container">
+
+            <span>C++</span>
+            <span>Python</span>
+            <span>Embedded C</span>
+            <span>ROS</span>
+            <span>ROS2</span>
+            <span>Linux</span>
+            <span>EtherCAT</span>
+            <span>OpenCAN</span>
+            <span>SLAM</span>
+            <span>AMCL</span>
+            <span>GMapping</span>
+            <span>Machine Learning</span>
+            <span>Deep Learning</span>
+            <span>Computer Vision</span>
+            <span>Arduino</span>
+            <span>Raspberry Pi</span>
+
+        </div>
+
+    </section>
+
+    <!-- Education -->
+
+    <section id="education">
+
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <h3>Miyazaki Information Business College</h3>
+
+            <p>
+                Japanese Language Course
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>RVS Technical Campus</h3>
+
+            <p>
+                Bachelor of Engineering
+                (Mechatronics)
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
         <h2>Contact</h2>
 
-        <p>Email : yourmail@email.com</p>
+        <p>Email : amarnath.12.v@gmail.com</p>
 
-        <a href="https://github.com/Amarnath-V12" target="_blank">
-            GitHub
-        </a>
+        <p>Location : Miyazaki, Japan</p>
 
-        <br><br>
+        <div class="buttons">
 
-        <a href="https://www.linkedin.com/" target="_blank">
-            LinkedIn
-        </a>
+            <a href="mailto:amarnath.12.v@gmail.com" class="btn">
+                Email
+            </a>
+
+            <a href="https://github.com/Amarnath-V12" target="_blank" class="btn">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/amarnath-v12" target="_blank" class="btn">
+                LinkedIn
+            </a>
+
+        </div>
 
     </section>
 
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+            © 2026 Amarnath V | Robotics Engineer
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
